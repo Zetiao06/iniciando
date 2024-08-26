@@ -1,0 +1,99 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#d2ebfa ;
+}
+
+#pesquisa{
+    border-style:solid;
+    border-color: black;
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    left: 35%;
+    top: 2%;
+    background-color: #ffffffad;   
+}
+div{
+    position: relative;
+    display: flex;
+}
+img{
+    width: 200px;
+    position: absolute;
+}
+.login{
+    position: absolute;
+    right:4% ;
+    margin-top: 60px;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: #b1dffa;
+    
+}
+.login:hover{
+    background-color: #20a9ff;
+}
+.conta:hover{
+    background-color: #20a9ff;
+}
+.conta{
+    position: absolute;
+    right:8% ;
+    margin-top: 60px;
+    border-style:solid; 
+    border-radius: 20px;
+    background-color: #b1dffa;
+}
+.produtos{
+    display: flex;
+    height: 100vh;
+    flex-wrap:wrap;
+    column-gap: 20px;
+    row-gap: 40px;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-right: 250px;  
+    margin-bottom: 200px;
+    justify-content:space-between;
+    flex-direction: column;   
+}
+#caixa{
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    font-size: 2em;
+    border-style: solid;
+    border-color: black;
+    background-color: rgba(51, 51, 51, 0.438);
+}
+#continuacao{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.caixa{
+    display: flex;
+    height: 100vh;
+    column-gap: 20px;
+    row-gap: 40px;
+    position: relative;
+}
+
+#botao{
+    width: 100px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    background-color:rgba(51, 51, 51, 0.438);
+    border-radius: 20px;
+}
+.categorias{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+    text-align:right;
+}
